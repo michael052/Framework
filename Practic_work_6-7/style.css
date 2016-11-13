@@ -1,0 +1,157 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+		background-color: #f5f4f4;
+}
+.header
+{
+	height: 37px;
+	width: 100%;
+	background-image:url(Image/1.png);repeat:repeat-x;
+}
+.menu2
+{
+	margin: 0 auto;
+	margin-top:2%;
+	height: 55px;
+	width: 93.5%;
+	background-image:url(Image/1.png);repeat:repeat-x;
+}
+.logo h1
+{
+	color:white;
+	font-size: 14px;
+	font-family: Georgia;
+	font-style: italic;
+	padding-top: 10px;
+	text-indent: 30px; 
+}
+.logo h1 span
+{
+	font-size: 15px;
+	padding-top: 1px;
+	text-indent: 30px; 
+	float: right;
+	padding-right: 45px;
+}
+
+.headhead
+{
+	padding-top: 50px;
+	font-family: 'PlayfairDisplayRegular';
+	font-size: 75px;
+	padding-left: 25px;
+	width:100%;	
+}
+
+.headhead span
+{
+	font-size: 20px;
+	font-family: Georgia;
+	padding-left: 42px;
+	color:#b90100;
+	vertical-align:top;
+	width:40%
+}
+p 
+{
+	margin-bottom:-11px;
+	color: #321d0a;
+}
+
+.number
+{
+	width:100%;
+}
+.clear {clear:both;}
+.number h2
+{
+	font-size: 20px;
+	font-family: Georgia;
+	font-style: italic;
+	float:right;
+	padding-top: 30px;
+	padding-right: 45px;
+}
+.number h2 span
+{
+	color:red;
+}
+.korz
+{
+	height: 53px;
+	width: 11%;
+	background-color: #321d0a;
+	float:right;
+	margin-top: -70px;
+	margin-right: 45px;
+	
+}
+.korz p
+{
+	font-family:Arial;
+	color:white;
+	float:right;
+	padding-top: 10px;
+}
+.korz span
+{
+	color:red;
+}
+.list-menu
+{
+	height: 50%
+	margin:0 auto;
+	margin-left:45.5%;
+	margin-top: -100px;
+	color:#321d0a;
+	font-size:16px;
+}
+.list-menu li
+{
+	display:block;
+	float: left;
+	height: 40px;
+	Color: #000
+	font-size: 3px;
+	padding: 0 15px 0 15px;
+	cursor: pointer;
+}
+.list-menu li:hover
+{
+	background-color: #f5f4f4;
+}
+
+.list-menu2
+{
+	width: 70%;
+	margin:0 auto;
+	margin-top: 10%;
+	margin-left: 4%;
+}
+.list-menu2 li
+{
+	display:block;
+	float: left;
+	height: 40px;
+	Color: #f5f4f4;
+	font-size: 14px;
+	padding: 20px 15px 0 15px;
+	text-transform:uppercase;
+	cursor: pointer;
+	border-left: solid white 0.5px;
+	font-size: 17px;
+	font-family: Arial;
+}
+.list-menu2 li:first-child
+{
+	border-left:none;
+}
+.list-menu2 li:hover
+{
+	background-color: none;
+

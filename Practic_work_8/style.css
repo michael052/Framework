@@ -1,0 +1,353 @@
+*/* Параметры, применяемые для всего документа */
+{
+	margin:0;
+	padding:0;
+}
+body /* Параметры для тела страницы */
+{
+		background-color: #f5f4f4;
+}
+.header /* Верхня полоса страницы */
+{
+	height: 37px;
+	width: 99.9%;
+	background-image:url(Image/1.png);repeat:repeat-x;
+}
+.menu2 /* Полоса, в которой размещено первое главное меню */
+{
+	margin: 0 auto;
+	height: 55px;
+	width: 93.5%;
+	background-image:url(Image/1.png);repeat:repeat-x;
+}
+.menu /* Первое главное меню */
+{
+	margin-top:-8.4%; 
+}
+.line /* Полоса, в которой размещено второе главное меню */
+{
+	height: 72px;
+	width: 93.5%;
+	background-color: #2c1f18;
+	margin: 0 auto; display:block;
+	margin-top: -1.4%;
+}
+.logo h1 /* Информация в верхней полосе страницы */
+{
+	color:white;
+	font-size: 14px;
+	font-family: Georgia;
+	font-style: italic;
+	padding-top: 10px;
+	text-indent: 30px;
+	width: 1340px;
+}
+.logo h1 span /* Символы языка и доллора */
+{
+	font-size: 15px;
+	padding-top: 1px;
+	text-indent: 30px; 
+	float: right;
+	padding-right: 45px;
+}
+
+.headhead /* Первая часть логотипа страницы */
+{
+	padding-top: 50px;
+	font-family: 'PlayfairDisplayRegular';
+	font-size: 75px;
+	padding-left: 25px;
+	width:98%;	
+}
+
+.headhead span /* Вторая часть логотипа страницы */
+{
+	font-size: 20px;
+	font-family: Georgia;
+	padding-left: 42px;
+	color:#b90100;
+	vertical-align:top;
+	width:40%
+}
+p /* Межстрочный интервал в логотипе */  
+{
+	margin-bottom:-11px;
+	color: #321d0a;
+}
+
+.number /* Блок с номером телефона*/
+{
+	width:99.9%;
+}
+.clear {clear:both;}
+.number h2 /* Первая часть номера телефона */
+{
+	font-size: 20px;
+	font-family: Georgia;
+	font-style: italic;
+	float:right;
+	padding-top: 30px;
+	padding-right: 45px;
+}
+.number h2 span /* вторая часть номера телефона */
+{
+	color:red;
+}
+.korz /* Задний фон корзины */
+{
+	height: 53px;
+	width: 150px;
+	background-color: #321d0a;
+	float:right;
+	margin-top: -70px;
+	margin-right: 45px;
+	
+}
+.korz p /* Общая надпись */
+{
+	font-family:Arial;
+	color:white;
+	float:right;
+	padding-top: 10px;
+}
+.korz span /* Строка цены */
+{
+	color:red;
+}
+.list-menu /* Строка под меню рядом с корзиной */
+{
+	height: 50%
+	margin:0 auto;
+	margin-left:45.5%;
+	margin-top: -100px;
+	color:#321d0a;
+	font-size:16px;
+}
+.list-menu li /* Настройка самого меню рядом с корзиной */
+{
+	display:block;
+	float: left;
+	height: 20px;
+	Color: #000
+	font-size: 3px;
+	padding: 0 15px 0 15px;
+	cursor: pointer;
+}
+.list-menu li:hover /* Фон при наведении на меню рядом с корзиной */
+{
+	background-color: red;
+}
+
+.list-menu2 /* Строка первого главного меню  */
+{
+	width: 70%;
+	margin:0 auto;
+	margin-top: 10%;
+	margin-left: 4%;
+}
+.list-menu2 li /* Настройка самого первого главного меню */
+{
+	display:block;
+	float: left;
+	height: 35px;
+	Color: #f5f4f4;
+	font-size: 14px;
+	padding: 20px 15px 0 15px;
+	text-transform:uppercase;
+	cursor: pointer;
+	border-left: solid white 0.5px;
+	font-size: 17px;
+	font-family: Arial;
+}
+.list-menu2 li:first-child /* Первый элемент первоего главного меню (верт.полоса) */
+{
+	border-left:none;
+}
+.list-menu2 li:hover /* Фон при наведении на первое главное меню */
+{
+	background-color: red;
+}
+
+.list-menu3 /* Строка второго главного меню */
+{
+	width: 93.5%;
+	padding:0 auto;
+	padding-left: 50px;
+	font-size:9px;
+}
+.list-menu3 li /* Настройка самого второго главного меню  */
+{
+	display:block;
+	float: left;
+	width: 22%;
+	height: 50px;
+	Color: #f5f4f4;
+	font-size: 14px;
+	padding: 20px 15px 0 15px;
+	cursor: pointer;
+	border-left: solid white 0.5px;
+	font-size: 19px;
+	font-family: Arial;
+	text-align: center;
+}
+.list-menu3 li:first-child /* Первый элемент второго главного меню (верт.полоса) */
+{
+	border-left:none;
+}
+.list-menu3 li:hover /* Фон при наведении на первое главное меню */
+{
+	background-color: red;
+}
+.list-menu3 li span /* Вторая строка каждого элемента главного меню */
+{
+	font-family: Georgia;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.telo img /* Главное изображение */
+{
+	margin: 0 auto; display:block;
+	width: 93.5%;
+}
+
+.food1 /* Первое изображение второстепенной еды */
+{
+	
+	margin: 1% 0 0 3.2%;
+	height: 250px;
+	width: 28.9%;
+	float:left;
+	background-image:url(Image/4.png); no-repeat;
+	background-size: 100%;
+}
+.text /* Текст в первом изображении второстепенной еды */
+{
+	font-family: 'PlayfairDisplayRegular';
+	font-size: 35px;
+	text-align:left;
+	margin: 60px 0 0 20px;
+	
+}
+.text h1 /* Первая строка текста в первом изображении */
+{
+	font-size: 32px;
+	line-height: 10px;
+	margin-bottom: -20px;
+}
+.food1 span /* Слова выделенные красным в первом изображении */
+{
+	color:red;
+}
+.food1 span span /* число 60 */
+{
+	font-size: 36px;
+	font-family: Tahoma;
+	margin-left: 5px;
+}
+
+.food2 /*Второе изображение второстепенной еды */
+{
+	
+	margin: 1% 0 0 3.2%;
+	height: 250px;
+	width: 28.9%;
+	float:left;
+	background-image:url(Image/7.png);no-repeat;
+	background-size: 100%;
+}
+.text2 /* Текст во втором изображении второстепенной еды */
+{
+	font-family: 'PlayfairDisplayRegular';
+	font-size: 34px;
+	text-align:left;
+	margin:5px 0 0 15px;
+	
+}
+.text2 span /* Последнее слово текста во втором изображении */
+{
+	color:red;
+	font-size:42px;
+}
+
+.food3 /*Третье изображение второстепенной еды */
+{
+	
+	margin: 1% 0 0 3.2%;
+	height: 250px;
+	width: 29%;
+	float:left;
+	background-image:url(Image/8.png);no-repeat;
+	background-size: 100%;
+}
+.text3 /* Текст в третьем изображении второстепенной еды */
+{
+	font-family: 'PlayfairDisplayRegular';
+	font-size: 34px;
+	text-align:left;
+	margin:5px 0 0 15px;
+	
+}
+.text3 span /* Последнее слово текста в третьем изображении */
+{
+	color:red;
+	font-size:42px;
+}
+
+.clear /*помощь в запрете обтекание*/
+{
+		clear:both;
+}
+.zag /*прижатие блока футера вниз страницы*/
+{
+		height:91px;
+		clear:both;
+}
+.footer /*оформление футера*/
+{
+		background-color:#f5f4f4;
+		width:93.5%;
+		margin:-81px auto 0;
+		height:81px;
+		position:relative;
+		font-family: arial;
+}
+hr
+{
+		width:1235px;
+}
+.footer h6 /*оформление надписи*/
+{
+		font-size:16px;
+		text-decoration:none;
+		float:left;
+		margin-left:7px;
+		padding-top: 10px;
+}
+.footer h6 span /*оформление надписи*/
+{
+		color:red;
+}
+.menu3 /*Последняя полоса сайта*/
+{
+	height: 45px;
+	width: 93.5%;
+	background-color: #321d0a;
+	margin:0 auto; 
+	margin-top: 290px;
+	display:block;
+}
+.menu3 p /*Надпись на последней полосе*/
+{
+	font-style:italic;
+	color:white;
+	padding:10px 0 0 15px;
+	font-size:20px;
+}
+.menu3 img /*иконки соц.сетей*/
+{
+		float:right;
+		margin-top:-22px;
+}
+
+

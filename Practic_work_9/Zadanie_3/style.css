@@ -1,0 +1,20 @@
+table
+{
+		text-align: center;
+		border-collapse:collapse;
+		background-color:black;
+		color:white;
+		width:100%;
+}
+.orange
+{
+		background-color:orange;
+		
+}
+.opz
+{
+		text-align:left;
+		font-size: 2em;
+		
+}
+

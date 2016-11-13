@@ -1,0 +1,42 @@
+table
+{
+		text-align: center;
+		border-collapse:collapse;
+		background-color:black;
+		color:white;
+		
+}
+
+table td
+{
+	vertical-align:top;
+}
+.orange
+{
+		background-color:orange;
+		
+}
+.opz
+{
+	text-align:left;
+	font-size: 1.7em;
+	vertical-align:top;
+}
+
+.tar td
+{
+		padding: 5px;
+}
+.shapka
+{
+	font-weight:700;
+}
+td:last-child
+{
+	background-color:orange;
+}
+.hover:hover
+{
+	background-color:#888;
+}
+

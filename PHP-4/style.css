@@ -1,0 +1,33 @@
+.head
+{
+	background-color:rgba(100,149,237,0.97);
+	text-align:center;
+	margin:0 auto;
+	margin-top:100px;
+	display:block;
+	width:700px;
+	border-radius:30px;
+	font-family: 'Jura', sans-serif;
+}
+.Block_Body
+{
+	background-color:rgba(100,149,237,0.97);
+	border-radius:0 0 30px 30px;
+	font-family: 'Jura', sans-serif;
+	font-size:24px;
+}
+.sea
+{
+	font-size:18px;
+	padding:7px;
+	width:130px;
+}
+body
+{
+		background-image:url(http://ru.stockfresh.com/thumbs/ecelop/1467329_фон-транспорт-обои-бумаги-автомобилей-знак.jpg);
+}
+
+p
+{
+	font-size:24px;
+}

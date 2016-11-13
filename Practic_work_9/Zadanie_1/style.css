@@ -1,0 +1,83 @@
+.one
+{
+		width: 700px;
+		float:left;
+		border-collapse: collapse;
+}
+.two
+{
+		width:100%;
+		border-collapse: collapse;
+}
+.stol
+{
+		width:25%;
+}
+.tree
+{
+		width:600px;
+		float:right;
+		border-collapse:collapse;
+		
+}
+.STOLBY
+{
+		width:200px;
+}
+.four
+{
+		height: 50px;
+		width: 300px;
+		border-spacing: 10px;
+		float:left;
+		background-color: #ffdb8b;
+}
+.visot5
+{
+		width:180px;
+}
+.five
+{
+		width:650px;
+		border-collapse:collapse;
+}
+.five td
+{
+		padding: 10px;
+}
+.five tr
+{
+		height:40px;
+}
+.q /* Таблица 4 ячейка 1*/
+{
+		background-color:red;
+}
+.w /* Таблица 4 ячейка 2*/
+{
+		background-color:blue;
+}
+.e  /* Таблица 4 ячейка 3*/
+{
+		background-color:green;
+}
+.z
+{
+	background-color: #8b00ff;
+}
+.x 
+{
+	background-color:green;
+}
+.c 
+{
+	background-color:red;
+}
+.v 
+{
+	background-color:blue;
+}
+.b 
+{
+	background-color:	yellow;
+}

@@ -1,0 +1,46 @@
+.fon
+{
+	background-color:#eff3f6;
+	height: 270px;
+	width: 800px;
+	margin:0 auto;
+	margin-top:100px;
+	border: 1px solid #999;
+}
+.ftor
+{
+	height: 165px;
+	width: 450px;
+	background-color:#e8ecef;
+	float:right;
+	margin: -170px 20px 0 0;
+	border: 1px solid #999;	
+}
+.aftor
+{
+		margin-left:20px;
+}
+.img
+{
+	padding: 45px 0 0 100px;
+}
+.text
+{
+		margin-left:50px;
+		width:200px;
+}
+.vhod
+{
+	color:red;
+	font-size:2em;
+	float:right;
+	margin-top:-210px;
+	margin-right:400px;
+	font-weight:700;
+}
+.b1
+{
+		background:#e8ecef;
+		border: 1px solid #999;
+		padding: 7px 9px 7px 9px;
+}

@@ -1,0 +1,37 @@
+*
+{
+		margin:0;
+		padding:0;
+}
+table
+{
+		border-collapse:collapse;
+		border: 1px solid #99ff99;
+}
+.str
+{
+		color:#808080;
+		font-size:11px;
+}
+.str:nth-child(even) td:first-child
+{
+	background-color:#808080;
+	color:white;
+}
+.str:nth-child(odd) td:last-child
+{
+	background-color:#808080;
+	color:white;
+}
+.sap
+{
+		background-color: green;
+		border-color: green;
+		color:white;
+		font-weight:700;
+		font-size:16px;
+}
+img
+{
+		border:1px solid black;
+}
