@@ -136,7 +136,7 @@ p /* Межстрочный интервал в логотипе */
 .list-menu li:hover /* Фон при наведении на меню рядом с корзиной */
 {
 	background-color: red;
-}
+}	
 
 .list-menu2 /* Строка первого главного меню  */
 {
@@ -174,13 +174,14 @@ p /* Межстрочный интервал в логотипе */
 	padding:0 auto;
 	padding-left: 50px;
 	font-size:9px;
+	color:white;
 }
 .list-menu3 li /* Настройка самого второго главного меню  */
 {
 	display:block;
 	float: left;
 	width: 22%;
-	height: 50px;
+	min-height:45px
 	Color: #f5f4f4;
 	font-size: 14px;
 	padding: 20px 15px 0 15px;
@@ -208,17 +209,18 @@ p /* Межстрочный интервал в логотипе */
 .telo img /* Главное изображение */
 {
 	margin: 0 auto; display:block;
-	width: 93.5%;
+	width: 1260px;
+	height:800px;
 }
 
 .food1 /* Первое изображение второстепенной еды */
 {
 	
-	margin: 1% 0 0 3.2%;
-	height: 250px;
-	width: 28.9%;
+	margin: 0 0 0 3.2%;
+	min-height: 250px;
+	width:400px;
 	float:left;
-	background-image:url(Image/4.png); no-repeat;
+	background-image:url(Image/4.png); repeat:no-repeat;
 	background-size: 100%;
 }
 .text /* Текст в первом изображении второстепенной еды */
@@ -249,10 +251,10 @@ p /* Межстрочный интервал в логотипе */
 .food2 /*Второе изображение второстепенной еды */
 {
 	
-	margin: 1% 0 0 3.2%;
-	height: 250px;
-	width: 28.9%;
-	float:left;
+	margin: 0 0 0 3.2%;
+	min-height: 250px;
+	width: 400px;
+	margin:0 auto;
 	background-image:url(Image/7.png);no-repeat;
 	background-size: 100%;
 }
@@ -273,12 +275,17 @@ p /* Межстрочный интервал в логотипе */
 .food3 /*Третье изображение второстепенной еды */
 {
 	
-	margin: 1% 0 0 3.2%;
-	height: 250px;
-	width: 29%;
-	float:left;
+	margin: 0 3.2% 0 0;
+	min-height:250px;
+	width: 400px;
+	float:right;
 	background-image:url(Image/8.png);no-repeat;
 	background-size: 100%;
+}
+.ftorimg
+{
+	max-height:250px;
+	width:100%;
 }
 .text3 /* Текст в третьем изображении второстепенной еды */
 {
@@ -319,6 +326,7 @@ hr
 .footer h6 /*оформление надписи*/
 {
 		font-size:16px;
+		width:98%;
 		text-decoration:none;
 		float:left;
 		margin-left:7px;
@@ -350,4 +358,91 @@ hr
 		margin-top:-22px;
 }
 
+.downm1 /*Нижнее меню навигации по сайту номер 1*/
+{
+	width:24%;
+	text-align:left;
+	float:left;
+	margin-left:45px;
+	padding-top:30px;
+}
+.downm1 h2 /*Стиль надписи в меню навигации номер 1*/
+{
+		font-size:17px;
+}
+.downm2 /*Нижнее меню навигации по сайту номер 2*/
+{
+	width:24%;
+	text-align:left;
+	padding-top:30px;
+	float:left;
+}
+.downm2 h2 /*Стиль надписи в меню навигации номер 2*/
+{
+		font-size:17px;
+}
+.downm3 /*Нижнее меню навигации по сайту номер 3*/
+{
+	width:24%;
+	text-align:left;
+	float:left;
+	padding-top:30px;
+}
+.downm3 h2 /*Стиль надписи в меню навигации номер 3*/
+{
+		font-size:17px;
+}
+.downm4 /*Нижнее меню навигации по сайту номер 4*/
+{
+	width:24%;
+	text-align:left;
+	float:left;
+	padding-top:30px;
+	height:120px;
+}
+.downm4 h2 /*Стиль надписи в меню навигации номер 4*/
+{
+		font-size:17px;
+}
+.downm4 p /*основной текс в 4 меню навигации*/
+{
+	font-family: arial;
+	font-size:16px;
+	line-height:25px;
+}
+.downm4 span/* номер телефона в 4 меню навигации*/
+{
+	color:red;
+	font-size:24px;
+	font-family: arial;
+	
+}
+hr /*Линия под оглавлениями разделов на меню навигации*/
+{
+		width:260px;
+}
 
+span hr /*линия над футером*/
+{
+		width:100%;
+}
+
+.navig li /* Настройка пунктов меню навигации */
+{
+	display:block;
+	Color: #000;
+	font-size:16px;
+	margin-left:-12px;
+	padding: 5px 15px 5px 15px;
+	cursor: pointer;
+	font-family: arial;
+}
+.navig li:hover /* Фон при наведении на пункт меню Навигации */
+{
+	background-color: red;
+}
+.navig span /*стрелочки*/
+{
+		color:red;
+		padding-right:8px;
+}

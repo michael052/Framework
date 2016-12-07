@@ -1,0 +1,20 @@
+RewriteBase/
+
+RewriteEngine On
+
+RewriteRule ^$ /app/WebRoot/[L]
+
+RewriteRule ^(.*)$ /app/WebRoot/$1[L]
+
+RewriteBase/
+
+AddTypeapplication/octet-stream.exe
+AddTypeapplication/x-rar-compressed.rar
+AddDefaultCharsetutf -8
+
+RewriteEngineOn
+
+RewriteCond%{REQUEST_FILENAME}!-f
+RewriteCond%{REQUEST_FILENAME}!-d
+
+RewriteRule^(.*)$ index.php[L]
